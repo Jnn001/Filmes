@@ -9,8 +9,7 @@ header {
   font-style: normal;
 }
 div {
-  font-family: "Quicksand", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
   font-style: normal;
 }
