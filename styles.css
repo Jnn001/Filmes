@@ -1,5 +1,6 @@
 body{
-  color: hsl(90,89,79)
+  color: hsl(190 100 50);
+  background: hsl(230 20 20);
 }      
 
 header {
@@ -11,6 +12,7 @@ header {
 
 div {
   font-family: "Poppins", sans-serif;
-  font-weight: 100;
+  font-weight: 500;
   font-style: normal;
+  font-size: 15px;
 }
