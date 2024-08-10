@@ -1,20 +1,21 @@
 body{
-  color: hsl(190 100 50);
-  background: hsl(230 20 20);
+  background: #08162d;
   font-size: 20px;
   margin: 0px;
+
 }      
 
 header {
+  color: #ffa112;
   font-family: "Orbitron", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  font-size: 23px;
-  border-bottom: solid 1px;
-  padding-left: 35px;
-  padding-top: 15px;
-  padding-bottom: 10px
+  font-size: 30px;
+  border-bottom: solid #ab1e30 2px;
+  padding-left: 55px;
+  padding-top: 25px;
+  padding-bottom: 15px
 }
 
 div {
@@ -27,5 +28,5 @@ div {
   color: white;
 }
 h1 {
-  font-weight: 725;
+  font-weight: 600;
 }
