@@ -1,12 +1,12 @@
 body{
-
-  background: #08152d;
+  background: #081a35;
   font-size: 20px;
   margin: 0px;
 
 }      
 
 header {
+  background: #112447;
   color: #ffa112;
   font-family: "Orbitron", sans-serif;
   font-optical-sizing: auto;
@@ -17,6 +17,11 @@ header {
   padding-left: 55px;
   padding-top: 25px;
   padding-bottom: 15px
+}
+
+section{
+  background: #112447;
+  margin-top: 25px;
 }
 
 div {
