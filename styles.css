@@ -1,7 +1,9 @@
 body{
+
   background: #081a35;
   font-size: 20px;
   margin: 0px;
+
 
 }      
 
@@ -16,12 +18,15 @@ header {
   border-bottom: solid #ab1e30 2px;
   padding-left: 55px;
   padding-top: 25px;
-  padding-bottom: 15px
+  padding-bottom: 15px;
+  margin-bottom: 80px;
 }
 
 section{
   background: #112447;
-  margin-top: 25px;
+  margin-top: 80;
+  display: flex;
+  justify-content: flex-start;
 }
 
 div {
