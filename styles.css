@@ -30,7 +30,8 @@ section{
 }
 
 .filmes-1{
-  
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 div {
@@ -38,10 +39,12 @@ div {
   font-weight: 500;
   font-style: normal;
   font-size: 15px;
-  padding-left: 15px;
+  padding-left: 0px;
   padding-top: 25px;
   color: white;
 }
+
+
 h1 {
   font-weight: 600;
 }
