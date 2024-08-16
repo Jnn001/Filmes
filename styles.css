@@ -14,7 +14,7 @@ header {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  font-size: 30px;
+  font-size: 35px;
   border-bottom: solid #ab1e30 4px;
   padding-left: 55px;
   padding-top: 25px;
@@ -35,30 +35,29 @@ section{
 }
 
 div {
-font-family: "Exo 2", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 00px;;
-  font-style: normal;
-  font-size: 20px;
-  padding-left: 0px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  color: white;
-}
+     font-family: "Exo 2", sans-serif;
+     font-optical-sizing: auto;
+     font-weight: 500;
+     font-size: 20;
+     padding-left: 0;
+     padding-top: 15;
+     padding-bottom: 15;
+     color: white;
+     }
 p{
-  font-size: 15px;
+  font-size: 20;
 }
 
 .informacoes-1{
-  padding-left: 50px;
+  padding-left: 150;
 }
 
 .video{
-  padding-left: 500;
+  padding-left: 250;
 }
 
 h1 {
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .videos{
