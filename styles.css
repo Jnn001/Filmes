@@ -52,14 +52,15 @@ p{
 .informacoes-1{
   padding-left: 13%;
   padding-right: 13%;
-  padding-top: 15;
+  padding-top: 15px;
 }
 
 .video{
   margin-right: 15%;
   opacity: 0.75;
-  padding-top: 15;
-  padding-bottom: 15;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
 }
 
 h1 {
@@ -68,14 +69,14 @@ h1 {
 
 .videos{
   
-  margin-top: 0;
+  margin-top: 0px;
   opacity: 0.75;
 
 }
 
 .informacoes-2 {
-  gap
-  width: 200; 
+  width: 300px; 
+
 }
 .video:hover {
   opacity: 1;
@@ -88,8 +89,17 @@ h1 {
 .outros-filmes{
   margin-left: 100px;
   margin-right: 100px;
+
   border-left: solid 2px #ab1e30;
   border-right: solid 2px #ab1e30;
-  padding-left: 50;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.outros-filmes-2{
   overflow-x: auto;
+  gap: 60px;
+
+}
+.filmes-1:hover {
+  border: solid 1px red;
 }
