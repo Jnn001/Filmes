@@ -34,6 +34,8 @@ section{
   margin-right: 100px;
   border-left: solid 2px #ffa112;
   border-right: solid 2px #ffa112;
+  border-top: solid 2px #ff000000;
+  border-bottom: solid 2px #ff000000;
 }
 
 div {
@@ -57,7 +59,6 @@ p{
 
 .video{
   margin-right: 15%;
-  opacity: 0.75;
   padding-top: 15px;
   padding-bottom: 15px;
 
@@ -68,7 +69,7 @@ h1 {
 }
 
 .videos{
-  
+  border: solid 2px #ff000000;
   margin-top: 0px;
   opacity: 0.75;
 
@@ -78,28 +79,36 @@ h1 {
   width: 300px; 
 
 }
-.video:hover {
-  opacity: 1;
-}
 
 .videos:hover {
   opacity: 1;
+  border: solid 2px #ffa112;
 }
 
 .outros-filmes{
   margin-left: 100px;
   margin-right: 100px;
-
   border-left: solid 2px #ab1e30;
   border-right: solid 2px #ab1e30;
+  border-top: solid 2px #ff000000;
+  border-bottom: solid 2px #ff000000;
   padding-left: 50px;
   padding-right: 50px;
+  margin-bottom: 60px;
 }
 .outros-filmes-2{
   overflow-x: auto;
-  gap: 60px;
-
+  gap: 55px;
+  margin-top: 15;
 }
 .filmes-1:hover {
-  border: solid 1px red;
+  border: solid 2px #ff000000;
+  border-top: solid 2px #ffa112;
+  border-bottom: solid 2px #ffa112;
+}
+
+.outros-filmes:hover {
+  border: solid 2px #ff000000;
+  border-top: solid 2px #ab1e30;#ab1e30;
+  border-bottom: solid 2px #ab1e30;
 }
