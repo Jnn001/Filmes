@@ -26,7 +26,7 @@ section{
   background: #1c3666;
   margin-top: 60;
   display: flex;
-
+  flex-direction: row;
 }
 
 .filmes-1{
@@ -50,12 +50,13 @@ p{
 }
 
 .informacoes-1{
-  padding-left: 400;
+  padding-left: 13%;
+  padding-right: 13%;
   padding-top: 15;
 }
 
 .video{
-  margin-left: 250;
+  margin-right: 15%;
   opacity: 0.75;
   padding-top: 15;
   padding-bottom: 15;
@@ -66,14 +67,15 @@ h1 {
 }
 
 .videos{
-  margin-left: 250;
+  
   margin-top: 0;
   opacity: 0.75;
 
 }
 
 .informacoes-2 {
-  padding-left: 250;
+  gap
+  width: 200; 
 }
 .video:hover {
   opacity: 1;
@@ -88,4 +90,6 @@ h1 {
   margin-right: 100px;
   border-left: solid 2px #ab1e30;
   border-right: solid 2px #ab1e30;
+  padding-left: 50;
+  overflow-x: auto;
 }
