@@ -2,7 +2,7 @@ header{
     padding-top: 1.5%;
     padding-bottom: 1%;
     padding-left: 5%;
-    color: #ffb247;
+    color: #ffc856;
     font-size: 20px;
     border-bottom: solid 1px white;
 }
@@ -35,14 +35,15 @@ button {
     height: 40px;
     background: white;
     color: white;
-    border: solid 2.5px #ffb247;
+    border: solid 2.5px #ffc856;
     margin-right: 10px;
     margin-left: 10px;
     background: #101010;
+    border-radius: 20px;
 }
 
 button:hover{
-    background: #ffb247;
+    background: #ffc856;
     border: solid 2.5px black;
     color: #101010;
 }
