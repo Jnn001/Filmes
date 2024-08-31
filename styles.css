@@ -1,114 +1,58 @@
-body{
-
-  background: #132c4f;
-  font-size: 20px;
-  margin: 0px;
-
-
-}      
-
-header {
-  background: #1c3666;
-  color: #ffa112;
-  font-family: "Orbitron", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 35px;
-  border-bottom: solid #ab1e30 4px;
-  padding-left: 80px;
-  padding-top: 25px;
-  padding-bottom: 15px;
-  margin-bottom: 60px;
+header{
+    padding-top: 1.5%;
+    padding-bottom: 1%;
+    padding-left: 5%;
+    color: #ffb247;
+    font-size: 20px;
+    border-bottom: solid 1px white;
 }
+body {
+    font-family: Quicksand;
+    background: #101010;
+    color: white;
+    margin: 0px;
 
-section{
-  background: #1c3666;
-  margin-top: 60;
-  display: flex;
-  flex-direction: row;
+    
 }
-
-.filmes-1{
-  margin-left: 100px;
-  margin-right: 100px;
-  border-left: solid 2px #ffa112;
-  border-right: solid 2px #ffa112;
-  border-top: solid 2px #ff000000;
-  border-bottom: solid 2px #ff000000;
+main {
+    display: flex;
+    justify-content: center;
+    padding-left: 0px;
+    margin-top: 5%;
+    background: #1d2434;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-bottom: 5%;
 }
-
-div {
-     font-family: "Exo 2", sans-serif;
-     font-optical-sizing: auto;
-     font-weight: 500;
-     font-size: 20;
-     margin-top: 15;
-     margin-bottom: 15;
-     color: white;
-     }
-p{
-  font-size: 20;
 }
-
-.informacoes-1{
-  padding-left: 13%;
-  padding-right: 13%;
-  padding-top: 15px;
-}
-
-.video{
-  margin-right: 15%;
-  padding-top: 15px;
-  padding-bottom: 15px;
+p {
+    font-size: 25px;
 
 }
-
-h1 {
-  font-weight: 500;
+button {
+    font-family: Quicksand;
+    width: 100px;
+    height: 40px;
+    background: white;
+    color: white;
+    border: solid 2.5px #ffb247;
+    margin-right: 10px;
+    margin-left: 10px;
+    background: #101010;
 }
 
-.videos{
-  border: solid 2px #ff000000;
-  margin-top: 0px;
-  opacity: 0.75;
-
+button:hover{
+    background: #ffb247;
+    border: solid 2.5px white;
+    color: #101010;
 }
 
-.informacoes-2 {
-  width: 300px; 
+.passo {
+    display: none;
 
-}
 
-.videos:hover {
-  opacity: 1;
-  border: solid 2px #ffa112;
-}
-
-.outros-filmes{
-  margin-left: 100px;
-  margin-right: 100px;
-  border-left: solid 2px #ab1e30;
-  border-right: solid 2px #ab1e30;
-  border-top: solid 2px #ff000000;
-  border-bottom: solid 2px #ff000000;
-  padding-left: 50px;
-  padding-right: 50px;
-  margin-bottom: 60px;
-}
-.outros-filmes-2{
-  overflow-x: auto;
-  gap: 55px;
-  margin-top: 15;
-}
-.filmes-1:hover {
-  border: solid 2px #ff000000;
-  border-top: solid 2px #ffa112;
-  border-bottom: solid 2px #ffa112;
-}
-
-.outros-filmes:hover {
-  border: solid 2px #ff000000;
-  border-top: solid 2px #ab1e30;#ab1e30;
-  border-bottom: solid 2px #ab1e30;
+}  
+.passo.ativo {
+    display: block;
+    text-align: center;
 }
